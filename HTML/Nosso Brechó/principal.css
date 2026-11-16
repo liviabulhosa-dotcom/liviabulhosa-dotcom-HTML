@@ -1,0 +1,76 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(243, 148, 188);
+    color: rgb(206, 6, 106);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+
+    background-color: rgb(252, 180, 210);
+    color: rgb(206, 6, 106);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(245, 31, 138);
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+#sobre #catalogo #preco #contato #endereco {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: lightpink;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(rgb(196, 30, 80), rgb(233, 31, 142), rgb(233, 27, 147), alpha);
+    text-align: center;
+    width: 95%;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #e16aae;
+    border-radius: 4px;
+}
+
+footer p {
+    text-align: center;
+    margin: 10px;
+    color: rgb(207, 30, 119);
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+}
